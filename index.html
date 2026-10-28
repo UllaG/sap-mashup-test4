@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quality Spare Parts</title>
+  <style>
+    :root {
+      --bg-color: #f8f9fa;
+      --card-bg: #ffffff;
+      --border-color: #d1d5db;
+      --text-main: #1f2937;
+      --text-muted: #4b5563;
+      --primary: #0066cc;
+      --section-header-bg: #eef2f6;
+      --section-header-text: #0f172a;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: #121827;
+        --card-bg: #1e293b;
+        --border-color: #334155;
+        --text-main: #f1f5f9;
+        --text-muted: #cbd5e1;
+        --primary: #38ef7d;
+        --section-header-bg: #334155;
+        --section-header-text: #f8fafc;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 11px;
+      line-height: 1.25;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      padding: 6px;
+    }
+
+    .container {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      padding: 8px 10px;
+    }
+
+    h1 {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 6px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    section {
+      margin-bottom: 6px;
+    }
+
+    h2 {
+      font-size: 10px;
+      font-weight: 600;
+      background-color: var(--section-header-bg);
+      color: var(--section-header-text);
+      padding: 2px 5px;
+      border-radius: 3px;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    p, li {
+      font-size: 11px;
+      color: var(--text-main);
+      margin-bottom: 3px;
+    }
+
+    ul {
+      margin-left: 14px;
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Quality Spare Parts</h1>
+
+  <section>
+    <h2>Error/Issue Occurrence</h2>
+    <ul>
+      <li>Provide Pictures of the damaged part/packaging</li>
+      <li>Was the part installed or used before the Quality Issue came up?</li>
+      <li>Provide the part number / serial number / order number of the damaged part</li>
+    </ul>
+  </section>
+</div>
+
+</body>
+</html>
